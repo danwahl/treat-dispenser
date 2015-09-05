@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="14" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,19 +39,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -13748,182 +13748,327 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 </class>
 </classes>
 <parts>
-<part name="R2" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10K"/>
-<part name="C1" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="R2" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10K">
+<attribute name="PN" value="CR0603-JW-103ELF"/>
+</part>
+<part name="C1" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF">
+<attribute name="PN" value="GRM188R61C104KA01D"/>
+</part>
 <part name="GND7" library="SparkFun" deviceset="GND" device=""/>
-<part name="R6" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="470"/>
-<part name="D3" library="SparkFun" deviceset="LED" device="0603" value="Green"/>
+<part name="R6" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="470">
+<attribute name="PN" value="CR0603-FX-4700ELF"/>
+</part>
+<part name="D3" library="SparkFun" deviceset="LED" device="0603" value="Green">
+<attribute name="PN" value="LTST-C190KGKT"/>
+</part>
 <part name="GND4" library="SparkFun" deviceset="GND" device=""/>
-<part name="U3" library="Testing" deviceset="ATMEGA32U4" device="OUTFAKES" value="ATMEGA32U4"/>
-<part name="Y1" library="SparkFun" deviceset="CRYSTAL" device="HC49US" value="16MHz"/>
-<part name="C2" library="SparkFun" deviceset="CAP" device="0603-CAP" value="22pF"/>
-<part name="C4" library="SparkFun" deviceset="CAP" device="0603-CAP" value="22pF"/>
+<part name="U3" library="Testing" deviceset="ATMEGA32U4" device="OUTFAKES" value="ATMEGA32U4">
+<attribute name="PN" value="ATMEGA32U4-AUR"/>
+</part>
+<part name="Y1" library="SparkFun" deviceset="CRYSTAL" device="HC49US" value="16MHz">
+<attribute name="PN" value="ECS-160-S-4"/>
+</part>
+<part name="C2" library="SparkFun" deviceset="CAP" device="0603-CAP" value="22pF">
+<attribute name="PN" value="GRM1885C2A220JA01D"/>
+</part>
+<part name="C4" library="SparkFun" deviceset="CAP" device="0603-CAP" value="22pF">
+<attribute name="PN" value="GRM1885C2A220JA01D"/>
+</part>
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
-<part name="C5" library="SparkFun" deviceset="CAP" device="0603-CAP" value="1uF"/>
+<part name="C5" library="SparkFun" deviceset="CAP" device="0603-CAP" value="1uF">
+<attribute name="PN" value="GRM188R61C105KA93D"/>
+</part>
 <part name="GND6" library="SparkFun" deviceset="GND" device=""/>
-<part name="C6" library="SparkFun" deviceset="CAP" device="0603-CAP" value="1uF"/>
+<part name="C6" library="SparkFun" deviceset="CAP" device="0603-CAP" value="1uF">
+<attribute name="PN" value="GRM188R61C105KA93D"/>
+</part>
 <part name="GND9" library="SparkFun" deviceset="GND" device=""/>
-<part name="R4" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="470"/>
-<part name="D1" library="SparkFun" deviceset="LED" device="0603" value="Yellow"/>
-<part name="R5" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="22"/>
-<part name="R7" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="22"/>
+<part name="R4" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="470">
+<attribute name="PN" value="CR0603-FX-4700ELF"/>
+</part>
+<part name="D1" library="SparkFun" deviceset="LED" device="0603" value="Yellow">
+<attribute name="PN" value="LTST-C190KSKT"/>
+</part>
+<part name="R5" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="22">
+<attribute name="PN" value="CR0603-JW-220ELF"/>
+</part>
+<part name="R7" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="22">
+<attribute name="PN" value="CR0603-JW-220ELF"/>
+</part>
 <part name="GND3" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+1" library="SparkFun" deviceset="VCC" device=""/>
 <part name="P+2" library="SparkFun" deviceset="VCC" device=""/>
-<part name="JP1" library="SparkFun-Connectors" deviceset="USB" device="-MB-H" value="WM17115-ND"/>
-<part name="C9" library="SparkFun" deviceset="CAP" device="0603-CAP" value="4.7uF"/>
-<part name="C10" library="SparkFun" deviceset="CAP" device="0603-CAP" value="4.7uF"/>
+<part name="JP1" library="SparkFun-Connectors" deviceset="USB" device="-MB-H" value="">
+<attribute name="PN" value="WM17115-ND"/>
+</part>
+<part name="C9" library="SparkFun" deviceset="CAP" device="0603-CAP" value="4.7uF">
+<attribute name="PN" value="GRM188R61C475KAAJD"/>
+</part>
+<part name="C10" library="SparkFun" deviceset="CAP" device="0603-CAP" value="4.7uF">
+<attribute name="PN" value="GRM188R61C475KAAJD"/>
+</part>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="D4" library="SparkFun" deviceset="LED" device="0603" value="red"/>
-<part name="R9" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="470"/>
-<part name="U1" library="SparkFun" deviceset="MCP73831" device=""/>
-<part name="R1" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10K"/>
+<part name="D4" library="SparkFun" deviceset="LED" device="0603" value="red">
+<attribute name="PN" value="LTST-C190KRKT"/>
+</part>
+<part name="R9" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="470">
+<attribute name="PN" value="CR0603-FX-4700ELF"/>
+</part>
+<part name="U1" library="SparkFun" deviceset="MCP73831" device="" value="MCP73831">
+<attribute name="PN" value="MCP73831T-2ATI/OT"/>
+</part>
+<part name="R1" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10K">
+<attribute name="PN" value="CR0603-JW-103ELF"/>
+</part>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="U2" library="tps6103x" deviceset="TPS6103X" device="" value="TPS61032"/>
+<part name="U2" library="tps6103x" deviceset="TPS6103X" device="" value="TPS6103x">
+<attribute name="PN" value="TPS61032PWPR"/>
+</part>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="R3" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="300K"/>
-<part name="R8" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="1.62M"/>
-<part name="C3" library="SparkFun" deviceset="CAP" device="0603-CAP" value="10uF"/>
+<part name="R3" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="182K">
+<attribute name="PN" value="CR0603-FX-1823ELF"/>
+</part>
+<part name="R8" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="1M">
+<attribute name="PN" value="CR0603-JW-105ELF"/>
+</part>
+<part name="C3" library="SparkFun" deviceset="CAP" device="0603-CAP" value="10uF">
+<attribute name="PN" value="GRM188C81C106MA73D"/>
+</part>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="V_BATT" device=""/>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="V_BATT" device=""/>
-<part name="L1" library="SparkFun-Passives" deviceset="INDUCTOR" device="0603" value="6.8uH"/>
-<part name="R10" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="1.62M"/>
-<part name="R11" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="180K"/>
-<part name="JP3" library="SparkFun-Connectors" deviceset="AUDIO-JACK" device="PTH" value="SJ1-3523N"/>
-<part name="JP4" library="SparkFun-Connectors" deviceset="AUDIO-JACK" device="PTH" value="SJ1-3523N"/>
-<part name="JP5" library="SparkFun-Connectors" deviceset="M03" device="PTH"/>
+<part name="R10" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="1M">
+<attribute name="PN" value="CR0603-JW-105ELF"/>
+</part>
+<part name="R11" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="110K">
+<attribute name="PN" value="CR0603-FX-1103ELF"/>
+</part>
+<part name="JP3" library="SparkFun-Connectors" deviceset="AUDIO-JACK" device="PTH">
+<attribute name="PN" value="SJ1-3523N"/>
+</part>
+<part name="JP4" library="SparkFun-Connectors" deviceset="AUDIO-JACK" device="PTH">
+<attribute name="PN" value="SJ1-3523N"/>
+</part>
+<part name="JP5" library="SparkFun-Connectors" deviceset="M03" device="PTH">
+<attribute name="PN" value="M22-2510305"/>
+</part>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
-<part name="R12" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="1M"/>
+<part name="R12" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="1M">
+<attribute name="PN" value="CR0603-JW-105ELF"/>
+</part>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
-<part name="C7" library="SparkFun-Capacitors" deviceset="CAP_POL" device="PTH1" value="220uF"/>
-<part name="C8" library="SparkFun" deviceset="CAP" device="0603-CAP" value="10uF"/>
+<part name="C7" library="SparkFun-Capacitors" deviceset="CAP_POL" device="PTH1" value="220uF">
+<attribute name="PN" value="UVR1A221MED"/>
+</part>
+<part name="C8" library="SparkFun" deviceset="CAP" device="0603-CAP" value="10uF">
+<attribute name="PN" value="GRM188C81C106MA73D"/>
+</part>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
-<part name="JP2" library="SparkFun-Connectors" deviceset="M02" device="JST-PTH-2-KIT"/>
-<part name="JP7" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
-<part name="R13" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="470"/>
+<part name="JP2" library="SparkFun-Connectors" deviceset="M02" device="JST-PTH-2-KIT">
+<attribute name="PN" value="S2B-PH-K-S(LF)(SN)"/>
+</part>
+<part name="JP7" library="SparkFun-Connectors" deviceset="M02" device="PTH">
+<attribute name="PN" value="M22-2510205"/>
+</part>
+<part name="R13" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="470">
+<attribute name="PN" value="CR0603-FX-4700ELF"/>
+</part>
 <part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
-<part name="JP6" library="SparkFun-Connectors" deviceset="M03X2" device="FEMALE" value="FEMALE 2x3"/>
-<part name="JP8" library="SparkFun-Connectors" deviceset="M03" device="PTH"/>
+<part name="JP6" library="SparkFun-Connectors" deviceset="M03X2" device="FEMALE">
+<attribute name="PN" value="M20-9980346"/>
+</part>
+<part name="JP8" library="SparkFun-Connectors" deviceset="M03" device="PTH">
+<attribute name="PN" value="M22-2510305"/>
+</part>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
+<part name="L2" library="SparkFun-Passives" deviceset="INDUCTOR" device="">
+<attribute name="PN" value="SRP4020TA-6R8M"/>
+</part>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="R2" gate="G$1" x="66.04" y="154.94" rot="R90"/>
+<instance part="R2" gate="G$1" x="66.04" y="154.94" rot="R90">
+<attribute name="PN" x="66.04" y="154.94" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="C1" gate="G$1" x="60.96" y="129.54" smashed="yes" rot="R180">
 <attribute name="NAME" x="61.976" y="129.667" size="1.778" layer="95"/>
 <attribute name="VALUE" x="61.976" y="124.841" size="1.778" layer="96"/>
+<attribute name="PN" x="60.96" y="129.54" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="GND7" gate="1" x="60.96" y="119.38"/>
-<instance part="R6" gate="G$1" x="114.3" y="68.58" rot="R270"/>
+<instance part="R6" gate="G$1" x="114.3" y="68.58" rot="R270">
+<attribute name="PN" x="114.3" y="68.58" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
 <instance part="D3" gate="G$1" x="114.3" y="50.8" smashed="yes" rot="R180">
 <attribute name="NAME" x="120.142" y="51.054" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="110.617" y="55.626" size="1.778" layer="96" rot="R270"/>
+<attribute name="PN" x="114.3" y="50.8" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="GND4" gate="1" x="53.34" y="99.06" rot="R270"/>
 <instance part="U3" gate="G$1" x="93.98" y="111.76" smashed="yes">
 <attribute name="NAME" x="80.01" y="150.876" size="1.778" layer="95"/>
 <attribute name="VALUE" x="78.74" y="68.58" size="1.778" layer="96"/>
+<attribute name="PN" x="93.98" y="111.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Y1" gate="G$1" x="71.12" y="99.06" smashed="yes" rot="R90">
 <attribute name="NAME" x="69.596" y="104.648" size="1.778" layer="95"/>
 <attribute name="VALUE" x="66.802" y="92.71" size="1.778" layer="96"/>
+<attribute name="PN" x="71.12" y="99.06" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C2" gate="G$1" x="63.5" y="101.6" smashed="yes" rot="R270">
 <attribute name="NAME" x="60.198" y="102.489" size="1.778" layer="95"/>
 <attribute name="VALUE" x="58.166" y="105.156" size="1.778" layer="96"/>
+<attribute name="PN" x="63.5" y="101.6" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="C4" gate="G$1" x="63.5" y="96.52" smashed="yes" rot="R270">
 <attribute name="NAME" x="60.198" y="97.028" size="1.778" layer="95"/>
 <attribute name="VALUE" x="57.658" y="93.98" size="1.778" layer="96"/>
+<attribute name="PN" x="63.5" y="96.52" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="GND2" gate="1" x="73.66" y="68.58"/>
 <instance part="C5" gate="G$1" x="43.18" y="109.22" smashed="yes" rot="R180">
 <attribute name="NAME" x="44.196" y="109.347" size="1.778" layer="95"/>
 <attribute name="VALUE" x="44.196" y="104.521" size="1.778" layer="96"/>
+<attribute name="PN" x="43.18" y="109.22" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="GND6" gate="1" x="43.18" y="99.06"/>
 <instance part="C6" gate="G$1" x="53.34" y="53.34" smashed="yes" rot="R180">
 <attribute name="NAME" x="54.356" y="53.467" size="1.778" layer="95"/>
 <attribute name="VALUE" x="54.356" y="48.641" size="1.778" layer="96"/>
+<attribute name="PN" x="53.34" y="53.34" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="GND9" gate="1" x="53.34" y="43.18"/>
-<instance part="R4" gate="G$1" x="121.92" y="73.66" rot="R270"/>
+<instance part="R4" gate="G$1" x="121.92" y="73.66" rot="R270">
+<attribute name="PN" x="121.92" y="73.66" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
 <instance part="D1" gate="G$1" x="121.92" y="58.42" smashed="yes" rot="R180">
 <attribute name="NAME" x="127.762" y="58.674" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="118.237" y="63.246" size="1.778" layer="96" rot="R270"/>
+<attribute name="PN" x="121.92" y="58.42" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="R5" gate="G$1" x="38.1" y="55.88" smashed="yes" rot="R180">
 <attribute name="NAME" x="34.036" y="52.578" size="1.778" layer="95"/>
 <attribute name="VALUE" x="39.37" y="52.578" size="1.778" layer="96"/>
+<attribute name="PN" x="38.1" y="55.88" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="R7" gate="G$1" x="38.1" y="58.42" smashed="yes" rot="R180">
 <attribute name="NAME" x="34.29" y="60.198" size="1.778" layer="95"/>
 <attribute name="VALUE" x="39.37" y="60.198" size="1.778" layer="96"/>
+<attribute name="PN" x="38.1" y="58.42" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="GND3" gate="1" x="58.42" y="43.18"/>
 <instance part="P+1" gate="1" x="114.3" y="45.72" rot="R180"/>
 <instance part="P+2" gate="1" x="121.92" y="45.72" rot="R180"/>
-<instance part="JP1" gate="G$1" x="17.78" y="63.5" rot="R180"/>
-<instance part="C9" gate="G$1" x="167.64" y="134.62"/>
-<instance part="C10" gate="G$1" x="213.36" y="134.62"/>
+<instance part="JP1" gate="G$1" x="17.78" y="63.5" rot="R180">
+<attribute name="PN" x="17.78" y="63.5" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="C9" gate="G$1" x="167.64" y="134.62">
+<attribute name="PN" x="167.64" y="134.62" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C10" gate="G$1" x="213.36" y="134.62">
+<attribute name="PN" x="213.36" y="134.62" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND18" gate="1" x="167.64" y="127"/>
 <instance part="GND20" gate="1" x="213.36" y="127"/>
-<instance part="D4" gate="G$1" x="152.4" y="147.32" rot="R90"/>
-<instance part="R9" gate="G$1" x="165.1" y="147.32" rot="R180"/>
-<instance part="U1" gate="G$1" x="185.42" y="139.7"/>
-<instance part="R1" gate="G$1" x="205.74" y="132.08" rot="R270"/>
+<instance part="D4" gate="G$1" x="152.4" y="147.32" rot="R90">
+<attribute name="PN" x="152.4" y="147.32" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R9" gate="G$1" x="165.1" y="147.32" rot="R180">
+<attribute name="PN" x="165.1" y="147.32" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="U1" gate="G$1" x="185.42" y="139.7">
+<attribute name="PN" x="185.42" y="139.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R1" gate="G$1" x="205.74" y="132.08" rot="R270">
+<attribute name="PN" x="205.74" y="132.08" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
 <instance part="GND14" gate="1" x="198.12" y="132.08"/>
 <instance part="GND17" gate="1" x="205.74" y="121.92"/>
 <instance part="GND1" gate="1" x="226.06" y="134.62"/>
-<instance part="U2" gate="G$1" x="190.5" y="86.36"/>
+<instance part="U2" gate="G$1" x="190.5" y="86.36">
+<attribute name="PN" x="190.5" y="86.36" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND5" gate="1" x="170.18" y="68.58"/>
 <instance part="GND8" gate="1" x="210.82" y="68.58"/>
-<instance part="R3" gate="G$1" x="167.64" y="81.28" rot="R270"/>
-<instance part="R8" gate="G$1" x="160.02" y="88.9" rot="R180"/>
-<instance part="C3" gate="G$1" x="147.32" y="86.36"/>
+<instance part="R3" gate="G$1" x="167.64" y="81.28" rot="R270">
+<attribute name="PN" x="167.64" y="81.28" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
+<instance part="R8" gate="G$1" x="160.02" y="88.9" rot="R180">
+<attribute name="PN" x="160.02" y="88.9" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="C3" gate="G$1" x="147.32" y="86.36">
+<attribute name="PN" x="147.32" y="86.36" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY1" gate="G$1" x="213.36" y="147.32"/>
 <instance part="SUPPLY2" gate="G$1" x="147.32" y="109.22"/>
-<instance part="L1" gate="G$1" x="157.48" y="101.6" rot="R90"/>
-<instance part="R10" gate="G$1" x="223.52" y="99.06" rot="R270"/>
-<instance part="R11" gate="G$1" x="223.52" y="83.82" rot="R270"/>
-<instance part="JP3" gate="G$1" x="12.7" y="144.78" rot="MR180"/>
-<instance part="JP4" gate="G$1" x="12.7" y="127" rot="MR180"/>
-<instance part="JP5" gate="G$1" x="10.16" y="106.68"/>
+<instance part="R10" gate="G$1" x="223.52" y="99.06" rot="R270">
+<attribute name="PN" x="223.52" y="99.06" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
+<instance part="R11" gate="G$1" x="223.52" y="83.82" rot="R270">
+<attribute name="PN" x="223.52" y="83.82" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
+<instance part="JP3" gate="G$1" x="12.7" y="144.78" rot="MR180">
+<attribute name="PN" x="12.7" y="144.78" size="1.778" layer="96" rot="MR180" display="off"/>
+</instance>
+<instance part="JP4" gate="G$1" x="12.7" y="127" rot="MR180">
+<attribute name="PN" x="12.7" y="127" size="1.778" layer="96" rot="MR180" display="off"/>
+</instance>
+<instance part="JP5" gate="G$1" x="10.16" y="106.68">
+<attribute name="PN" x="10.16" y="106.68" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND10" gate="1" x="20.32" y="99.06"/>
 <instance part="GND11" gate="1" x="20.32" y="119.38"/>
 <instance part="GND12" gate="1" x="20.32" y="137.16"/>
-<instance part="R12" gate="G$1" x="215.9" y="99.06" rot="R270"/>
+<instance part="R12" gate="G$1" x="215.9" y="99.06" rot="R270">
+<attribute name="PN" x="215.9" y="99.06" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
 <instance part="GND13" gate="1" x="43.18" y="152.4"/>
-<instance part="C7" gate="G$1" x="238.76" y="93.98"/>
-<instance part="C8" gate="G$1" x="228.6" y="91.44"/>
+<instance part="C7" gate="G$1" x="238.76" y="93.98">
+<attribute name="PN" x="238.76" y="93.98" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C8" gate="G$1" x="228.6" y="91.44">
+<attribute name="PN" x="228.6" y="91.44" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY3" gate="G$1" x="60.96" y="165.1"/>
 <instance part="SUPPLY4" gate="G$1" x="210.82" y="109.22"/>
 <instance part="SUPPLY5" gate="G$1" x="43.18" y="165.1"/>
 <instance part="SUPPLY6" gate="G$1" x="27.94" y="111.76"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="V" x="147.32" y="0"/>
-<instance part="JP2" gate="G$1" x="236.22" y="139.7" rot="MR0"/>
-<instance part="JP7" gate="G$1" x="35.56" y="134.62"/>
-<instance part="R13" gate="G$1" x="50.8" y="144.78" rot="R270"/>
+<instance part="JP2" gate="G$1" x="236.22" y="139.7" rot="MR0">
+<attribute name="PN" x="236.22" y="139.7" size="1.778" layer="96" rot="MR0" display="off"/>
+</instance>
+<instance part="JP7" gate="G$1" x="35.56" y="134.62">
+<attribute name="PN" x="35.56" y="134.62" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R13" gate="G$1" x="50.8" y="144.78" rot="R270">
+<attribute name="PN" x="50.8" y="144.78" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
 <instance part="SUPPLY7" gate="G$1" x="50.8" y="152.4"/>
-<instance part="JP6" gate="G$1" x="33.02" y="160.02"/>
-<instance part="JP8" gate="G$1" x="10.16" y="83.82"/>
+<instance part="JP6" gate="G$1" x="33.02" y="160.02">
+<attribute name="PN" x="33.02" y="160.02" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="JP8" gate="G$1" x="10.16" y="83.82">
+<attribute name="PN" x="10.16" y="83.82" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND15" gate="1" x="20.32" y="76.2"/>
 <instance part="SUPPLY8" gate="G$1" x="27.94" y="88.9"/>
+<instance part="L2" gate="G$1" x="157.48" y="101.6" rot="R90">
+<attribute name="PN" x="157.48" y="101.6" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -14565,14 +14710,13 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <junction x="152.4" y="93.98"/>
 <junction x="147.32" y="93.98"/>
 <pinref part="SUPPLY2" gate="G$1" pin="V_BATT"/>
-<pinref part="L1" gate="G$1" pin="1"/>
 <wire x1="147.32" y1="101.6" x2="149.86" y2="101.6" width="0.1524" layer="91"/>
 <junction x="147.32" y="101.6"/>
+<pinref part="L2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="SW" class="0">
 <segment>
-<pinref part="L1" gate="G$1" pin="2"/>
 <pinref part="U2" gate="G$1" pin="SW@1"/>
 <wire x1="165.1" y1="101.6" x2="167.64" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="101.6" x2="172.72" y2="101.6" width="0.1524" layer="91"/>
@@ -14580,6 +14724,7 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <pinref part="U2" gate="G$1" pin="SW@2"/>
 <wire x1="167.64" y1="99.06" x2="172.72" y2="99.06" width="0.1524" layer="91"/>
 <junction x="167.64" y="101.6"/>
+<pinref part="L2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="FB" class="0">
