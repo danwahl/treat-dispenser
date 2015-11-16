@@ -1,28 +1,24 @@
-"Qty","Value","Device","Package","Parts","Description","PN","PROD_ID","VALUE",
-"2","","AUDIO-JACKPTH","AUDIO-JACK","JP3, JP4","3.5mm Audio Jack","SJ1-3523N","","",
-"1","","INDUCTOR","INDUCTOR-SRP4020","L2","Inductors","SRP4020TA-6R8M","","",
-"1","","M02JST-PTH-2-KIT","JST-2-PTH-KIT","JP2","Standard 2-pin 0.1" header. Use with","S2B-PH-K-S(LF)(SN)","","",
-"1","","M02PTH","1X02","JP7","Standard 2-pin 0.1" header. Use with","M22-2510205","","",
-"2","","M03PTH","1X03","JP5, JP8","Header 3","M22-2510305","","",
-"1","","M03X2FEMALE","2X3","JP6","2x3 .1" header.","M20-9980346","CONN-11566","FEMALE 2x3",
-"1","","USB-MB-H","USB-MB-H","JP1","USB Connectors","WM17115-ND","","",
-"1","0.1uF","CAP0603-CAP","0603-CAP","C1","Capacitor","GRM188R61C104KA01D","","",
-"2","10K","RESISTOR0603-RES","0603-RES","R1, R2","Resistor","CR0603-JW-103ELF","","",
-"2","10uF","CAP0603-CAP","0603-CAP","C3, C8","Capacitor","GRM188C81C106MA73D","","",
-"1","110K","RESISTOR0603-RES","0603-RES","R11","Resistor","CR0603-FX-1103ELF","","",
-"1","16MHz","CRYSTALHC49US","HC49US","Y1","Crystals","ECS-160-S-4","","",
-"1","182K","RESISTOR0603-RES","0603-RES","R3","Resistor","CR0603-FX-1823ELF","","",
-"3","1M","RESISTOR0603-RES","0603-RES","R8, R10, R12","Resistor","CR0603-JW-105ELF","","",
-"2","1uF","CAP0603-CAP","0603-CAP","C5, C6","Capacitor","GRM188R61C105KA93D","","",
-"2","22","RESISTOR0603-RES","0603-RES","R5, R7","Resistor","CR0603-JW-220ELF","","",
-"1","220uF","CAP_POLPTH1","CPOL-RADIAL-100UF-25V","C7","Capacitor Polarized","UVR1A221MED","","",
-"2","22pF","CAP0603-CAP","0603-CAP","C2, C4","Capacitor","GRM1885C2A220JA01D","","",
-"2","4.7uF","CAP0603-CAP","0603-CAP","C9, C10","Capacitor","GRM188R61C475KAAJD","","",
-"4","470","RESISTOR0603-RES","0603-RES","R4, R6, R9, R13","Resistor","CR0603-FX-4700ELF","","",
-"1","ATMEGA32U4","ATMEGA32U4OUTFAKES","QFN-44-NOPAD_1:1-OUTFAKES","U3","Atmel 44-pin 8-bit Microcontroller with 32KBytes of ISP Flash and USB Controller","ATMEGA32U4-AUR","","",
-"1","FRAME-LETTER","FRAME-LETTER","CREATIVE_COMMONS","FRAME1","Schematic Frame","","","",
-"1","Green","LED0603","LED-0603","D3","LEDs","LTST-C190KGKT","","",
-"1","MCP73831","MCP73831","SOT23-5","U1","Microchip's MCP73831","MCP73831T-2ATI/OT","","",
-"1","TPS6103x","TPS6103X","TSSOP-16","U2","","TPS61032PWPR","","",
-"1","Yellow","LED0603","LED-0603","D1","LEDs","LTST-C190KSKT","","",
-"1","red","LED0603","LED-0603","D4","LEDs","LTST-C190KRKT","","",
+"Qty";"Value";"Device";"Package";"Parts";"Description";"PN";"PROD_ID";"VALUE";
+"1";"";"AUDIO-JACKPTH";"AUDIO-JACK";"JP3";"3.5mm Audio Jack";"SJ1-3523N";"";"";
+"1";"";"INDUCTOR";"INDUCTOR-SRP4020";"L2";"Inductors";"SRP4020TA-6R8M";"";"";
+"1";"";"M02JST-PTH-2-KIT";"JST-2-PTH-KIT";"JP2";"Standard 2-pin 0.1" header. Use with";"S2B-PH-K-S(LF)(SN)";"";"";
+"1";"";"M02PTH";"1X02";"JP7";"Standard 2-pin 0.1" header. Use with";"M22-2510205";"";"";
+"1";"";"M03PTH";"1X03";"JP5";"Header 3";"M22-2510305";"";"";
+"1";"";"M03X2FEMALE";"2X3";"JP6";"2x3 .1" header.";"M20-9980346";"CONN-11566";"FEMALE 2x3";
+"1";"";"USB-MB-H";"USB-MB-H";"JP1";"USB Connectors";"WM17115-ND";"";"";
+"1";"0.1uF";"CAP0603-CAP";"0603-CAP";"C1";"Capacitor";"GRM188R61C104KA01D";"";"";
+"3";"10K";"RESISTOR0603-RES";"0603-RES";"R1, R2, R4";"Resistor";"CR0603-JW-103ELF";"";"";
+"2";"10uF";"CAP0603-CAP";"0603-CAP";"C3, C8";"Capacitor";"GRM188C81C106MA73D";"";"";
+"1";"110K";"RESISTOR0603-RES";"0603-RES";"R11";"Resistor";"CR0603-FX-1103ELF";"";"";
+"1";"16MHz";"CRYSTALHC49US";"HC49US";"Y1";"Crystals";"ECS-160-S-4";"";"";
+"1";"182K";"RESISTOR0603-RES";"0603-RES";"R3";"Resistor";"CR0603-FX-1823ELF";"";"";
+"3";"1M";"RESISTOR0603-RES";"0603-RES";"R8, R10, R12";"Resistor";"CR0603-JW-105ELF";"";"";
+"2";"1uF";"CAP0603-CAP";"0603-CAP";"C5, C6";"Capacitor";"GRM188R61C105KA93D";"";"";
+"2";"22";"RESISTOR0603-RES";"0603-RES";"R5, R7";"Resistor";"CR0603-JW-220ELF";"";"";
+"1";"220uF";"CAP_POLPTH1";"CPOL-RADIAL-100UF-25V";"C7";"Capacitor Polarized";"UVR1A221MED";"";"";
+"2";"22pF";"CAP0603-CAP";"0603-CAP";"C2, C4";"Capacitor";"GRM1885C2A220JA01D";"";"";
+"2";"4.7uF";"CAP0603-CAP";"0603-CAP";"C9, C10";"Capacitor";"GRM188R61C475KAAJD";"";"";
+"1";"470";"RESISTOR0603-RES";"0603-RES";"R13";"Resistor";"CR0603-FX-4700ELF";"";"";
+"1";"ATMEGA32U4TQFP-44";"ATMEGA32U4TQFP-44";"TQFP44";"U$1";"Atmel 44-pin 8-bit Microcontroller with 32KBytes of ISP Flash and USB Controller";"ATMEGA32U4-AUR";"";"";
+"1";"MCP73831";"MCP73831";"SOT23-5";"U1";"Microchip's MCP73831";"MCP73831T-2ATI/OT";"";"";
+"1";"TPS6103x";"TPS6103X";"TSSOP-16";"U2";"";"TPS61032PWPR";"";"";

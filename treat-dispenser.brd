@@ -959,7 +959,9 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="7.366" y="23.114" size="0.4064" layer="25" font="vector"/>
 <attribute name="VALUE" x="3.048" y="18.542" size="0.8128" layer="25" font="vector" ratio="15"/>
 </element>
-<element name="U$1" library="SparkFun-DigitalIC" package="TQFP44" value="ATMEGA32U4TQFP-44" x="63.5" y="22.225" rot="R135"/>
+<element name="U$1" library="SparkFun-DigitalIC" package="TQFP44" value="ATMEGA32U4TQFP-44" x="63.5" y="22.225" rot="R135">
+<attribute name="PN" value="ATMEGA32U4-AUR" x="63.5" y="22.225" size="1.778" layer="27" rot="R135" display="off"/>
+</element>
 <element name="R4" library="SparkFun" package="0603-RES" value="10K" x="54.61" y="24.13" rot="R90">
 <attribute name="PN" value="CR0603-JW-103ELF" x="54.61" y="24.13" size="1.778" layer="27" font="vector" rot="R90" display="off"/>
 </element>
@@ -1199,8 +1201,8 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="JP5" pad="3"/>
 <contactref element="U$1" pad="31"/>
 <wire x1="7.62" y1="35.56" x2="10.287" y2="38.227" width="0.3048" layer="1"/>
-<wire x1="10.287" y1="38.227" x2="44.103884375" y2="38.227" width="0.3048" layer="1"/>
 <wire x1="44.103884375" y1="38.227" x2="57.701721875" y2="24.6291625" width="0.3048" layer="1"/>
+<wire x1="10.287" y1="38.227" x2="44.103884375" y2="38.227" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="Y1" pad="1"/>
@@ -1231,8 +1233,8 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="JP7" pad="1"/>
 <contactref element="U$1" pad="32"/>
 <wire x1="11.43" y1="35.56" x2="13.335" y2="37.465" width="0.3048" layer="1"/>
-<wire x1="13.335" y1="37.465" x2="43.7345125" y2="37.465" width="0.3048" layer="1"/>
 <wire x1="43.7345125" y1="37.465" x2="57.1360375" y2="24.063475" width="0.3048" layer="1"/>
+<wire x1="13.335" y1="37.465" x2="43.7345125" y2="37.465" width="0.3048" layer="1"/>
 </signal>
 <signal name="D14">
 <contactref element="U$1" pad="8"/>
@@ -1397,11 +1399,11 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="2.54" y1="37.592" x2="8.382" y2="37.592" width="0.3048" layer="1"/>
 <wire x1="8.382" y1="37.592" x2="9.906" y2="39.116" width="0.3048" layer="1"/>
 <wire x1="61.095834375" y1="28.023275" x2="50.003109375" y2="39.116" width="0.3048" layer="1"/>
-<wire x1="50.003109375" y1="39.116" x2="9.906" y2="39.116" width="0.3048" layer="1"/>
 <wire x1="4.76" y1="13.65" x2="4.76" y2="14.0001" width="0.3048" layer="1"/>
 <wire x1="4.064" y1="12.7" x2="4.76" y2="13.396" width="0.3048" layer="1"/>
 <wire x1="4.76" y1="13.396" x2="4.76" y2="14.0001" width="0.3048" layer="1"/>
 <wire x1="1.27" y1="36.322" x2="2.54" y2="37.592" width="0.3048" layer="1"/>
+<wire x1="50.003109375" y1="39.116" x2="9.906" y2="39.116" width="0.3048" layer="1"/>
 </signal>
 <signal name="D6">
 <contactref element="U$1" pad="27"/>

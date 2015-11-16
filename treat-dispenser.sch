@@ -5964,7 +5964,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="L2" library="SparkFun-Passives" deviceset="INDUCTOR" device="">
 <attribute name="PN" value="SRP4020TA-6R8M"/>
 </part>
-<part name="U$1" library="SparkFun-DigitalIC" deviceset="ATMEGA32U4" device="TQFP-44"/>
+<part name="U$1" library="SparkFun-DigitalIC" deviceset="ATMEGA32U4" device="TQFP-44">
+<attribute name="PN" value="ATMEGA32U4-AUR"/>
+</part>
 <part name="R4" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10K">
 <attribute name="PN" value="CR0603-JW-103ELF"/>
 </part>
@@ -6103,7 +6105,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="L2" gate="G$1" x="157.48" y="101.6" rot="R90">
 <attribute name="PN" x="157.48" y="101.6" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="U$1" gate="G$1" x="93.98" y="111.76"/>
+<instance part="U$1" gate="G$1" x="93.98" y="111.76">
+<attribute name="PN" x="93.98" y="111.76" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R4" gate="G$1" x="66.04" y="83.82" rot="R90">
 <attribute name="PN" x="66.04" y="83.82" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
