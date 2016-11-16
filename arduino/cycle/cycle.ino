@@ -15,10 +15,11 @@
 #define   CAL_DELAY     5000
 #define   SAMPLE_RATE   100
 
+
 #ifdef USE_FEEDBACK
-#define   JIGGLE_DEG    15    // in degrees
+#define   JIGGLE_DEG    10    // in degrees
 #define   JIGGLE_TRIES  5
-#define   JIGGLE_DELAY  300
+#define   JIGGLE_DELAY  200
 #define   JIGGLE_THRES  5
 
 #define   FB_PIN        A0    // servo feedback
@@ -179,17 +180,10 @@ void flash_led(int num) {
  * dispense treat
  **************************************************************************/
 void dispense(void) {
-#ifdef USE_FEEDBACK
-    // check fb pos
-    delay(SAMPLE_RATE);
-    float fb_pos = convert_fb(analogRead(FB_PIN));
-    
-    Serial.print("fb_pos = ");
-    Serial.println(fb_pos);
-#endif
     
     // get commanded pos
     int cmd_pos;
+    for (int p=0; p < 1000; p++) {  
     if(servo_dir == 1) cmd_pos = SERVO_MAX;
     else cmd_pos = SERVO_MIN;
 
@@ -203,40 +197,15 @@ void dispense(void) {
     delay(SERVO_DELAY);                    // wait for the servo to reach the position 
     myservo.detach();                      // detach turns off the servo so it doesn't keep pulling current
 
-#ifdef USE_FEEDBACK
-    // check fb pos
-    delay(SAMPLE_RATE);
-    fb_pos = convert_fb(analogRead(FB_PIN));
 
-    Serial.print("fb_pos = ");
-    Serial.println(fb_pos);
 
-    // jiggle if cmd pos not reached
-    int j_tries = 0;
-    while(fabs(cmd_pos - fb_pos) > JIGGLE_THRES) {
-      Serial.print("jiggle attempt ");
-      Serial.println(j_tries);
-      
-      // try to unclog dispenser
-      jiggle(cmd_pos, fb_pos, servo_dir);
+    servo_dir = 1 - servo_dir;              // switch servo direction for next loop
 
-      // update fb pos
-      delay(SAMPLE_RATE);
-      fb_pos = convert_fb(analogRead(FB_PIN));
-
-      Serial.print("fb_pos = ");
-      Serial.println(fb_pos);
-
-      // check for max tries
-      if(++j_tries >= JIGGLE_TRIES) break;
     }
-#endif
-
-    servo_dir = 1 - servo_dir;             // switch servo direction for next loop
-  
     // turn off led
     flash_led(1);
 }
+
 
 
 
